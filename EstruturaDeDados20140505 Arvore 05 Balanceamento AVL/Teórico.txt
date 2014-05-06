@@ -1,0 +1,23 @@
+﻿
+POR QUÊ UTILIZAR ARVORES AVL?
+ 
+	Primeira estrutura de dados a oferecer operações de inserção, remoção e busca em Tempo Logaritmo -->  T(n) = 0 (log n)
+
+    Em uma arvore desbalanceada de 10.000 nós são necessarios 5.000 comparações para se fazer uma busca. Em uma arvore AVL,
+    precisaremos de 14 comparações.O Algoritmo da Árvore AVL, busca o menor custo possivel de busca;
+
+FATOR DE BALANCEAMENTO
+    
+	FATBAL = -1, Quando a subarvore da esquerda é um nivel mais alto que o da direita.
+    FATBAL = 0, Quando ambas arvores possuem a mesma altura.
+    FATBAL = 1,  Quando a subarvore da direita é um nivel mais alto do que o da esqueda.
+
+BALANCEAMENTO DE ARVORES
+    
+	O algoritmo realiza o balanceamento, corrigindo a estrutura da arvore através da movimentação dos nós, que chamamos de ROTAÇÂO.
+
+DICAS 
+
+	1) Observar os sinaisde "FB"
+	2) Se "FB" for positivo (+), a ROTAÇÃO PARA A ESQUEDA.
+	3) Se "FB" for negativo (-), a ROTAÇÃO PARA A DIREITA.
